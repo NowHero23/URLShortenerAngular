@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortenerAngular.Server", "URLShortenerAngular.Server\URLShortenerAngular.Server.csproj", "{7134824D-43BF-4FAD-83B3-5FFA961D3D2A}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "urlshortenerangular.client", "urlshortenerangular.client\urlshortenerangular.client.esproj", "{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLShortenerAngular.UnitTests", "URLShortenerAngular.UnitTests\URLShortenerAngular.UnitTests.csproj", "{37958C40-BB11-498F-94C4-9E60773AA57E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4E477D50-6FF8-4B1A-A596-D5928E9AABA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7134824D-43BF-4FAD-83B3-5FFA961D3D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7134824D-43BF-4FAD-83B3-5FFA961D3D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7134824D-43BF-4FAD-83B3-5FFA961D3D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7134824D-43BF-4FAD-83B3-5FFA961D3D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B31956B-E955-4FA1-8622-ED3FA7B9A4AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{37958C40-BB11-498F-94C4-9E60773AA57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37958C40-BB11-498F-94C4-9E60773AA57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37958C40-BB11-498F-94C4-9E60773AA57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37958C40-BB11-498F-94C4-9E60773AA57E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E477D50-6FF8-4B1A-A596-D5928E9AABA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E477D50-6FF8-4B1A-A596-D5928E9AABA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E477D50-6FF8-4B1A-A596-D5928E9AABA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E477D50-6FF8-4B1A-A596-D5928E9AABA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

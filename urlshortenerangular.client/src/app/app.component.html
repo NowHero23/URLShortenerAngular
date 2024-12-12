@@ -1,0 +1,29 @@
+﻿<header class="navbar bg-base-200">
+  <div class="flex-1">
+    <app-logo />
+  </div>
+  <div class="flex-none">
+    <ul class="gap-1 px-1 menu menu-horizontal">
+      <li>
+        <a routerLink="/about">About</a>
+      </li>
+      <li><app-login-button /></li>
+      <li>
+        <details>
+          <summary>Theme</summary>
+          <ul class="p-2 rounded-t-none bg-base-100">
+            <li><a>Link 1</a></li>
+            <li><a>Link 2</a></li>
+          </ul>
+        </details>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<main class="flex-[1_0_auto] flex flex-col w-full max-w-screen-xl">
+  <router-outlet />
+</main>
+<header class="flex justify-center w-full bg-base-200">
+  <div class="flex flex-row w-full max-w-screen-xl"><app-logo /></div>
+</header>

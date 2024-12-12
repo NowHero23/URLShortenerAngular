@@ -1,0 +1,28 @@
+<div class="w-full h-full mx-auto my-10">
+  <div className="overflow-x-auto">
+    <table class="table table-zebra">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Short Url</th>
+          <th>Original Url</th>
+          <th>Created Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for(u of urlsResource.value(); track u.id){
+        <tr class="hover">
+          <td>{{ u.id }}</td>
+          <td>{{ u.shortUrl }}</td>
+          <td>{{ u.originalUrl }}</td>
+          <td>{{ u.createdDate }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <button class="btn btn-primary mt-5" (click)="refreshResource()">
+    Reload
+  </button>
+</div>
